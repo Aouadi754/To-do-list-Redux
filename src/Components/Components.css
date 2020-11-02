@@ -1,0 +1,55 @@
+.task_bar{
+display: flex;
+border-bottom-style: solid;
+border-color: blue;
+margin-bottom: 15px; 
+
+}
+.description_bar{
+    display: flex;  
+    margin-top: 7px; 
+}
+.task_bar_status{
+    margin-left:260px;
+    
+    }
+.description_bar img{
+width: 30px;;
+height:25px;
+margin-left:45px ; 
+        }   
+.task{
+width:45%;
+margin:auto;
+border-radius:20px;
+padding-left:5%;
+padding-right:5%;
+margin-top:60px;
+padding-top:10px;
+padding-bottom:5px ;
+background-color: #C7EADC;} 
+.description_task{
+width:280px;
+font-family: cursive } 
+.description_status{
+width:80px;
+font-family: cursive ;
+margin-left:20px}  
+.select_style{
+width:150px;
+margin-left: 10%;
+border-color: blue;
+border-radius: 5px;
+padding-left: 40px;
+padding-top: 3px;
+padding-bottom: 3px;
+font-weight: 600;} 
+h5{
+color:#418D3F }
+h1{
+text-align: center;
+}
+.header{
+background-color: #E4CBE8 ;
+height: 100px;
+}
