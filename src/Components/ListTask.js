@@ -3,11 +3,16 @@ import Task from './Task'
 import {useSelector} from 'react-redux'
 
 function ListTask() {
-    let tasks=useSelector(state => state)
+let tasks=useSelector(state => state.tasks)
+let filter_variable=useSelector(state => state.filter_variable)    
     return (
         <div>
-    {tasks.map((task) =>{return <Task key={task.id} task={task}/>})};  
-            
+
+{(filter_variable==='All'?tasks:tasks.filter(el=>el.isDone===filter_variable)).map((task) =><Task key={task.id} task={task}/>)}
+
+   
+      
+           
         </div>
     )
 }

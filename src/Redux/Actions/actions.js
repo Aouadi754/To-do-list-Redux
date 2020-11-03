@@ -1,4 +1,4 @@
-import {ADD,REMOVE,EDIT} from '../Constants/constants'
+import {ADD,REMOVE,EDIT,FILTER} from '../Constants/constants'
 
 export const add =(payload)=> {
     return {
@@ -16,6 +16,12 @@ export const remove =(payload)=> {
 export const edit =(payload)=> {
     return {
         type:EDIT,
+        payload,
+    }
+}
+export const filter =(payload)=> {
+    return {
+        type:FILTER,
         payload,
     }
 }

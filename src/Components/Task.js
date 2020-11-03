@@ -26,7 +26,7 @@ function Task({task}) {
 
          <div className='description_bar'>
 
-         <p className='description_task'>{task.title}</p>       
+         <p className={task.isDone==='Done'?'description_task':''} style={{width:'280px',fontFamily:'cursive'}}>{task.title}</p>       
          <p className='description_status' >{task.isDone}</p>
          <img  src="/Edit-removebg-preview.png" alt='' onClick={()=>{handleShow();setStatus(task.isDone);setEdit(task.title)}}/>
         <img  src="/delete-icon-removebg-preview.png" alt=''  onClick={()=>dispatch(remove(task.id))}/>

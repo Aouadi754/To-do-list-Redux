@@ -7,7 +7,7 @@ function AddTask() {
     const dispatch = useDispatch();
     const [add_input,SetAddInput]=useState('')
     return (
-        <div style={{width:'35%',margin:'auto',marginTop:'35px'}}>
+        <div style={{width:'35%',margin:'auto',marginTop:'85px'}}>
     <InputGroup className="mb-3">
     <FormControl
       placeholder="Add a new task.."

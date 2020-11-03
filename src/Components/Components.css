@@ -29,8 +29,7 @@ padding-top:10px;
 padding-bottom:5px ;
 background-color: #C7EADC;} 
 .description_task{
-width:280px;
-font-family: cursive } 
+text-decoration: line-through; } 
 .description_status{
 width:80px;
 font-family: cursive ;
@@ -48,8 +47,23 @@ h5{
 color:#418D3F }
 h1{
 text-align: center;
+margin-top: 10px;
 }
 .header{
 background-color: #E4CBE8 ;
 height: 100px;
+
+}
+.filter{
+  margin-left :42%;
+    }
+label{
+    margin-left: 18px;
+    font-size: larger;
+    font-weight: 600;
+    color: green;
+    
+}
+label input{
+    margin-left: 5px;
 }
